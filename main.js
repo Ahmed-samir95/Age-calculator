@@ -9,7 +9,7 @@ submitForm.onclick = function () {
   if (addage.value === "") {
     addage.setAttribute("placeholder", "Please enter your age in years")
   } else{
-    yourAge.innerHTML = `your age in days is: ${calckAge()}` 
+    yourAge.innerHTML = `your age in days is: ${calckAge()} days` 
   }
 }
 
