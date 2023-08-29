@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+header{
+  background-color: rgb(7, 7, 87);
+  padding: 30px;
+  text-align: center;
+}
+
+header h2{
+  color: #fff;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.container .form input[type="number"] {
+  width: 300px;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .container .form input[type="number"] {
+    width: 220px;
+  }
+}
+
+.container .form input[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(7, 7, 87);
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .container .form input[type="submit"] {
+    width: 94px;
+  }
+}
+
+.show-age{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
