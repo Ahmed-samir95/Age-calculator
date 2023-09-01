@@ -22,12 +22,21 @@ header h2{
   margin-top: 20%;
 }
 
-.container .form input[type="number"] {
+.container .form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .form input[type="number"],.container .form input[type="text"] {
   width: 300px;
   padding: 10px;
+  display: block;
+  margin: 10px;
 }
 @media (max-width: 600px) {
-  .container .form input[type="number"] {
+  .container .form input[type="number"],.container .form input[type="text"] {
     width: 220px;
   }
 }
@@ -35,6 +44,9 @@ header h2{
 .container .form input[type="submit"] {
   width: 100px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   background-color: rgb(7, 7, 87);
   border: none;
@@ -43,7 +55,9 @@ header h2{
 @media (max-width: 600px) {
   .container .form input[type="submit"] {
     width: 94px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;  }
 }
 
 .show-age{
