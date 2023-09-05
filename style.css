@@ -42,7 +42,7 @@ header h2{
 }
 
 .container .form input[type="submit"] {
-  width: 100px;
+  width: 130px;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -54,19 +54,46 @@ header h2{
 }
 @media (max-width: 600px) {
   .container .form input[type="submit"] {
-    width: 94px;
+    width: 115px;
     display: flex;
     justify-content: center;
     align-items: center;  }
 }
 
-.show-age{
+#showagedays,
+#showagehours{
   text-align: center;
   margin-top: 20px;
-  
+  background-color: rgb(7, 7, 87);
+  color: #fff;
+  padding: 20px;
+  display: none;
 }
 
 
+#submitHourss{
+  display: none;
+}
+
+#submitHourss input[type="submit"] {
+  width: 130px;
+  padding: 10px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgb(7, 7, 87);
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  #submitHourss input[type="submit"] {
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  }
+}
 
 
 
