@@ -16,11 +16,16 @@ submitForm.onclick = function () {
   if (addage.value === "" || addname.value === "") {
     addage.setAttribute("placeholder", "Please enter your age in years");
     addname.setAttribute("placeholder", "Please enter your name")
+  } else if (addname.value === "menna mohamed") {
+    yourAgeInDays.innerHTML = `Hello, the most beautiful and smartest engineer in Egypt your age in days is: ${calckAgeInDays()} days`;
+    showAgedays.style.cssText = "display: block"
+    submitHourss.style.cssText = "display: block" 
   } else{
     yourAgeInDays.innerHTML = `Hello ${addName()} your age in days is: ${calckAgeInDays()} days`;
     showAgedays.style.cssText = "display: block" 
     submitHourss.style.cssText = "display: block"
   }
+  
 }
 
 function calckAgeInDays() {
